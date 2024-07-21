@@ -84,7 +84,7 @@ namespace WinterUniverse
 
         public void Revive()
         {
-            _alive = enabled;
+            _alive = true;
             _reviveEffect.Play();
             RestoreHealth(_healthMax);
         }
